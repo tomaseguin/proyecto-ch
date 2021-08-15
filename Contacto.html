@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body bodycontact">
+    <h1 class="contacto">CONTACTO</h1>
+    <form action="">
+      <fieldset class="form">
+        <legend>Contact Us</legend>
+        <br />
+        <div>
+          <label for="Nombre">Nombre y Apellido:</label>
+          <br />
+          <input type="text" id="Nombre" name="Nombre" />
+        </div>
+        <div>
+          <br />
+          <label for="Email">Email:</label>
+          <br />
+          <input type="email" id="Email" name="Email" />
+          <br />
+        </div>
+        <div>
+          <br />
+          <label for="Numero_telefonico">Numero de Telefono:</label>
+          <br />
+          <input type="text" id="Numero_telefonico" name="Numero_telefonico" />
+        </div>
+        <br />
+        <div>
+          <h4>Tipo de Negocio:</h4>
+          <label for="Minorista">Minorista</label>
+          <input
+            type="radio"
+            id="Minorista"
+            name="Tipo_de_negocio"
+            value="Min"
+          />
+          <br />
+          <label for="Mayorista">Mayorista</label>
+          <input
+            type="radio"
+            id="Mayorista"
+            name="Tipo_de_negocio"
+            value="May"
+          />
+          <br />
+          <label for="Otro">Otro</label>
+          <input type="radio" id="Otro" name="Tipo_de_negocio" value="Otro" />
+        </div>
+        <br />
+        <div>
+          <label for="Provincia">Provincia</label>
+          <select name="Provincia" id="Provincia">
+            <option value="Bsas">Buenos Aires</option>
+            <option value="Cba">Cordoba</option>
+            <option value="Mza">Mendoza</option>
+            <option value="LP">La Pampa</option>
+            <option value="SF">Santa Fe</option>
+            <option value="SC">Santa Cruz</option>
+            <option value="ER">Entre Rios</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="Mensaje">Mensaje:</label>
+          <br />
+          <textarea name="Mensaje" id="Mensaje" cols="30" rows="10"></textarea>
+        </div>
+        <br />
+        <div>
+          <input
+            type="checkbox"
+            name="AceptoTerminos"
+            value="Si"
+            id="Terminos"
+          />
+          <label for="Terminos">Acepto los terminos.</label>
+        </div>
+        <br />
+        <input type="reset" value="LIMPIAR CAMPOS" />
+        <input type="submit" value="ENVIAR" />
+        <br />
+        <br />
+        <br />
+        <a href="index.html" class="volver">VOLVER A HOME</a>
+      </fieldset>
+    </form>
+  </body>
+</html>
