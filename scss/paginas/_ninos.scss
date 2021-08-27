@@ -1,0 +1,43 @@
+/* Pestaña Ninos */
+
+.menunav {
+  border: groove 5px;
+  font-family: sans-serif;
+  background-color: rgb(225, 225, 255);
+  font-size: 20px;
+  padding: 10px 10px;
+  padding-inline-end: 2rem;
+  height: 7rem;
+  display: flex;
+  margin-top: 5rem;
+}
+
+.catalogocontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulosecciones {
+  margin-left: 4.3rem;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  justify-self: flex-start;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.fotosninos {
+  padding-bottom: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.fotosninos--pics {
+  height: 250px;
+  width: auto;
+}

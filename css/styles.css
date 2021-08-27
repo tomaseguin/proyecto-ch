@@ -1,0 +1,608 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* OTROS */
+body header nav ul {
+  list-style-type: none;
+}
+
+body header nav ul li {
+  float: left;
+  text-align: center;
+  width: 5em;
+}
+
+/* Grid */
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 140px auto auto;
+      grid-template-rows: 140px auto auto;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+      grid-template-areas: "header" "main" "footer";
+}
+
+.main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: main;
+}
+
+/* Body */
+.body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  background-color: #e1e1ff;
+}
+
+.sectionslide {
+  background-color: #e1e1ff;
+  color: #eee;
+  padding: 3rem 2rem;
+}
+
+.sectionslide .altoimg {
+  max-height: 548px;
+  max-width: 800px;
+}
+
+.sectionslide .centradoimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sectionslide .centradoimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* SectionSlide */
+.sectionslide {
+  position: relative;
+  margin-top: 10rem;
+}
+
+/* Section Nos */
+.sectionNos__titulo {
+  color: #044468;
+  text-decoration: underline;
+  text-align: center;
+  padding: 5rem;
+}
+
+.sectionNos__nos {
+  font-size: 2rem;
+  padding: 15px;
+  text-align: center;
+  display: block;
+  -webkit-margin-after: 4rem;
+          margin-block-end: 4rem;
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 68, 255, 0.068);
+}
+
+.sectionNos__nos--bold {
+  font-weight: bold;
+}
+
+/* Section Faraon */
+.sectionNos__faraon {
+  margin-bottom: 5rem;
+  max-width: 123rem;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+  background-color: rgba(0, 68, 255, 0.068);
+  padding: 15px;
+}
+
+/* Section Vendidos */
+.flexvendidos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sectionVendidos__titulo {
+  color: #044468;
+  text-decoration: underline;
+  text-align: center;
+  padding-bottom: 10rem;
+}
+
+.sectionVendidos__fotos {
+  margin-bottom: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 1rem;
+          column-gap: 1rem;
+  -webkit-padding-end: 10rem;
+          padding-inline-end: 10rem;
+  -webkit-padding-start: 10rem;
+          padding-inline-start: 10rem;
+}
+
+.sectionVendidos__fotos--pics {
+  width: 40rem;
+  height: 30rem;
+}
+
+/* Modificacion del Bootstrap */
+.rounded-circle {
+  max-width: 100%;
+}
+
+/* Pestaña CONTACTO */
+.contacto {
+  background-color: #7878ce;
+  font-family: sans-serif;
+  font-size: 3.5rem;
+  color: black;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: solid 3px black;
+  margin-top: 3rem;
+  position: relative;
+  width: 25rem;
+  overflow: hidden;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form {
+  margin-top: 3rem;
+  margin-left: 5rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  background-color: rgba(120, 120, 206, 0.185);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#cccce8), to(#7979d1));
+  background-image: linear-gradient(to bottom, #cccce8, #7979d1);
+}
+
+.dif {
+  width: 50%;
+}
+
+.bodycontact {
+  background-color: #e1e1ff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#cccce8), to(#7979d1));
+  background-image: linear-gradient(to bottom, #cccce8, #7979d1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-lgg {
+  padding: 0.5rem 1rem;
+  font-size: 2.5rem;
+  border-radius: 0.3rem;
+}
+
+.form-control-dif {
+  width: 50%;
+}
+
+/* Pestaña Ninos */
+.menunav {
+  border: groove 5px;
+  font-family: sans-serif;
+  background-color: #e1e1ff;
+  font-size: 20px;
+  padding: 10px 10px;
+  -webkit-padding-end: 2rem;
+          padding-inline-end: 2rem;
+  height: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5rem;
+}
+
+.catalogocontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.titulosecciones {
+  margin-left: 4.3rem;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  justify-self: flex-start;
+  padding-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fotosninos {
+  padding-bottom: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fotosninos--pics {
+  height: 250px;
+  width: auto;
+}
+
+/* Footer */
+.footer {
+  background-color: #044468;
+  background-image: -webkit-gradient(linear, left top, right top, from(#044468), to(#0772b0));
+  background-image: linear-gradient(to right, #044468, #0772b0);
+  height: 16.5rem;
+  border-top: #210e8b solid 5px;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: footer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__contacto {
+  border: solid 1px black;
+  padding: 1rem;
+}
+
+.footer__contacto--contacto {
+  text-decoration: underline;
+  font-size: 2.6rem;
+  padding-bottom: 1rem;
+  color: black;
+}
+
+.footer__contacto--texto {
+  font-style: italic;
+  font-size: 1.8rem;
+}
+
+/* Header  */
+.header {
+  background-color: #044468;
+  height: 14rem;
+  border-bottom: #210e8b solid 5px;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-column-gap: 10rem;
+          column-gap: 10rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#044468), to(#0772b0));
+  background-image: linear-gradient(to right, #044468, #0772b0);
+  overflow: hidden;
+}
+
+.header__tituloprincipal {
+  background-color: #0772b0;
+  background-image: -webkit-gradient(linear, right top, left top, from(#0772b0), to(#0993e3));
+  background-image: linear-gradient(to left, #0772b0, #0993e3);
+  font-family: sans-serif;
+  font-size: 4.5rem;
+  color: black;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3rem;
+  border: solid 3px black;
+  height: 8rem;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.header__menunav {
+  border: groove 5px;
+  font-family: sans-serif;
+  background-color: #e1e1ff;
+  font-size: 20px;
+  padding: 10px 10px;
+  -webkit-padding-end: 2rem;
+          padding-inline-end: 2rem;
+  height: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4rem;
+}
+
+/* MEDIA QUERIES */
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1230px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 17rem;
+  }
+  .header__menunav {
+    margin-top: auto;
+    height: 7rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 18px;
+  }
+  .header__tituloprincipal {
+    margin-top: auto;
+  }
+  .sectionNos__nos {
+    font-size: 2.5rem;
+  }
+  #fotoslide {
+    -o-object-fit: cover;
+       object-fit: cover;
+    border: none;
+  }
+  .sectionVendidos__fotos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 1rem;
+  }
+  .sectionVendidos__fotos--pics {
+    width: 37rem;
+  }
+  /* Pestañas */
+  .menunav {
+    margin-top: auto;
+    height: 7rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 20px;
+  }
+  .fotosninos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 1rem;
+  }
+  .titulosecciones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .form {
+    font-size: 20px;
+  }
+  /* Pestañas */
+}
+
+/* CELULARES */
+@media (max-width: 767px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 22rem;
+  }
+  .header__menunav {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: auto;
+    width: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 17px;
+  }
+  body header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 1rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header__tituloprincipal {
+    margin: auto;
+    width: auto;
+    font-size: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .sectionNos__titulo {
+    font-size: 2rem;
+    padding: 2rem;
+  }
+  .sectionNos__nos {
+    font-size: 1.5rem;
+    padding: 0 2rem;
+    -webkit-margin-after: 1.5rem;
+            margin-block-end: 1.5rem;
+  }
+  .sectionNos__faraon {
+    font-size: 1.5rem;
+    padding: 0 2rem;
+    -webkit-margin-after: 1.5rem;
+            margin-block-end: 1.5rem;
+  }
+  #fotoslide {
+    border: none;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 100%;
+    padding: 0;
+    margin-top: 9rem;
+  }
+  .sectionVendidos__titulo {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+  .sectionVendidos__fotos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .sectionVendidos__fotos--pics {
+    width: 100%;
+    height: 100%;
+  }
+  .footer__contacto--contacto {
+    font-size: 2rem;
+  }
+  /* Pestañas  */
+  .menunav {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: auto;
+    width: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 17px;
+  }
+  .catalogocontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .titulosecciones {
+    margin-left: 0rem;
+  }
+  .form {
+    width: 100vw;
+  }
+  .contacto {
+    text-align: center;
+    margin-left: 4rem;
+    font-size: 3rem;
+  }
+  /* Pestañas */
+}

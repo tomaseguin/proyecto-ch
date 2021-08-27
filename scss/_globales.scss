@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* OTROS */
+
+body header nav ul {
+  list-style-type: none;
+}
+
+body header nav ul li {
+  float: left;
+  text-align: center;
+  width: 5em;
+}

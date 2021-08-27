@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
-    <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,34 +17,50 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body class="body bodycontact">
     <h1 class="contacto">CONTACTO</h1>
-    <form action="">
+    <form action="" class="container w-50">
       <fieldset class="form">
         <legend>Contact Us</legend>
         <br />
         <div>
           <label for="Nombre">Nombre y Apellido:</label>
           <br />
-          <input type="text" id="Nombre" name="Nombre" />
+          <input
+            class="form-control form-control-dif"
+            type="text"
+            id="Nombre"
+            name="Nombre"
+          />
         </div>
         <div>
           <br />
           <label for="Email">Email:</label>
           <br />
-          <input type="email" id="Email" name="Email" />
+          <input
+            class="form-control form-control-dif"
+            type="email"
+            id="Email"
+            name="Email"
+          />
           <br />
         </div>
         <div>
           <br />
           <label for="Numero_telefonico">Numero de Telefono:</label>
           <br />
-          <input type="text" id="Numero_telefonico" name="Numero_telefonico" />
+          <input
+            class="form-control form-control-dif"
+            type="text"
+            id="Numero_telefonico"
+            name="Numero_telefonico"
+          />
         </div>
         <br />
         <div>
-          <h4>Tipo de Negocio:</h4>
+          <h4 class="sectionNos__nos--bold">Tipo de Negocio:</h4>
           <label for="Minorista">Minorista</label>
           <input
             type="radio"
@@ -67,7 +82,7 @@
         </div>
         <br />
         <div>
-          <label for="Provincia">Provincia</label>
+          <label class="sectionNos__nos--bold" for="Provincia">Provincia</label>
           <select name="Provincia" id="Provincia">
             <option value="Bsas">Buenos Aires</option>
             <option value="Cba">Cordoba</option>
@@ -80,9 +95,15 @@
         </div>
         <br />
         <div>
-          <label for="Mensaje">Mensaje:</label>
+          <label class="sectionNos__nos--bold" for="Mensaje">Mensaje:</label>
           <br />
-          <textarea name="Mensaje" id="Mensaje" cols="30" rows="10"></textarea>
+          <textarea
+            class="form-control form-control-dif"
+            name="Mensaje"
+            id="Mensaje"
+            cols="30"
+            rows="10"
+          ></textarea>
         </div>
         <br />
         <div>
@@ -95,12 +116,15 @@
           <label for="Terminos">Acepto los terminos.</label>
         </div>
         <br />
-        <input type="reset" value="LIMPIAR CAMPOS" />
-        <input type="submit" value="ENVIAR" />
+        <input
+          class="btn btn-primary btn-lgg"
+          type="reset"
+          value="LIMPIAR CAMPOS"
+        />
+        <input class="btn btn-primary btn-lgg" type="submit" value="ENVIAR" />
         <br />
         <br />
-        <br />
-        <a href="index.html" class="volver">VOLVER A HOME</a>
+        <a href="index.html" class="btn btn-primary btn-lgg">VOLVER A HOME</a>
       </fieldset>
     </form>
     <script

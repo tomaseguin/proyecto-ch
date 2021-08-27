@@ -1,0 +1,29 @@
+/* Footer */
+
+.footer {
+  background-color: #044468;
+  background-image: linear-gradient(to right, #044468, #0772b0);
+  height: 16.5rem;
+  border-top: rgb(33, 14, 139) solid 5px;
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__contacto {
+  border: solid 1px black;
+  padding: 1rem;
+}
+
+.footer__contacto--contacto {
+  text-decoration: underline;
+  font-size: 2.6rem;
+  padding-bottom: 1rem;
+  color: black;
+}
+
+.footer__contacto--texto {
+  font-style: italic;
+  font-size: 1.8rem;
+}

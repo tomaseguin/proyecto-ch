@@ -1,0 +1,186 @@
+/* MEDIA QUERIES */
+/* TABLET */
+
+@media (min-width: 768px) and (max-width: 1230px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    height: 17rem;
+  }
+  .header__menunav {
+    margin-top: auto;
+    height: 7rem;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+  }
+
+  .header__tituloprincipal {
+    margin-top: auto;
+  }
+
+  .sectionNos__nos {
+    font-size: 2.5rem;
+  }
+
+  #fotoslide {
+    object-fit: cover;
+    border: none;
+  }
+
+  .sectionVendidos__fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1rem;
+  }
+
+  .sectionVendidos__fotos--pics {
+    width: 37rem;
+  }
+
+  /* Pestañas */
+
+  .menunav {
+    margin-top: auto;
+    height: 7rem;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+  }
+
+  .fotosninos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1rem;
+  }
+
+  .titulosecciones {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form {
+    font-size: 20px;
+  }
+
+  /* Pestañas */
+}
+
+/* CELULARES */
+
+@media (max-width: 767px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    height: 22rem;
+  }
+  .header__menunav {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 17px;
+  }
+
+  body header nav ul {
+    display: flex;
+    justify-content: center;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .header__tituloprincipal {
+    margin: auto;
+    width: auto;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .sectionNos__titulo {
+    font-size: 2rem;
+    padding: 2rem;
+  }
+
+  .sectionNos__nos {
+    font-size: 1.5rem;
+    padding: 0 2rem;
+    margin-block-end: 1.5rem;
+  }
+
+  .sectionNos__faraon {
+    font-size: 1.5rem;
+    padding: 0 2rem;
+    margin-block-end: 1.5rem;
+  }
+
+  #fotoslide {
+    border: none;
+    object-fit: contain;
+    height: 100%;
+    padding: 0;
+    margin-top: 9rem;
+  }
+
+  .sectionVendidos__titulo {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .sectionVendidos__fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .sectionVendidos__fotos--pics {
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer__contacto--contacto {
+    font-size: 2rem;
+  }
+
+  /* Pestañas  */
+
+  .menunav {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 17px;
+  }
+
+  .catalogocontainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .titulosecciones {
+    margin-left: 0rem;
+  }
+
+  .form {
+    width: 100vw;
+  }
+
+  .contacto {
+    text-align: center;
+    margin-left: 4rem;
+    font-size: 3rem;
+  }
+
+  /* Pestañas */
+}
