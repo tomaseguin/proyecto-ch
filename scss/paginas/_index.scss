@@ -115,9 +115,14 @@
   padding-inline-start: 10rem;
 }
 
-.sectionVendidos__fotos--pics {
-  width: 40rem;
-  height: 30rem;
+.sombreado-foto {
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.sombreado-foto:hover {
+  -webkit-box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+  box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
 }
 
 /* Modificacion del Bootstrap */

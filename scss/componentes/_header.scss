@@ -25,6 +25,13 @@
   height: 8rem;
   text-decoration: none;
   overflow: hidden;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.header__tituloprincipal:hover {
+  -webkit-box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+  box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
 }
 
 .header__menunav {
