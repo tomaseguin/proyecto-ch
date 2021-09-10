@@ -33,18 +33,6 @@
     max-height: 548px;
     max-width: 800px;
   }
-
-  .centradoimg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .centradoimg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 }
 
 /* SectionSlide */
@@ -52,6 +40,17 @@
 .sectionslide {
   position: relative;
   margin-top: 10rem;
+}
+
+.imgsize {
+  width: 500px;
+  height: 500px;
+}
+
+.centradoimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Section Nos */
