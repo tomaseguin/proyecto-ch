@@ -47,10 +47,16 @@
   height: 500px;
 }
 
-.centradoimg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.marginimg {
+  margin-left: 25vw;
+}
+
+.overflowh {
+  overflow: hidden;
+}
+
+.bgc {
+  background-color: $color-primario;
 }
 
 /* Section Nos */

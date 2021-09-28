@@ -57,34 +57,27 @@ body header nav ul li {
   max-width: 800px;
 }
 
-.sectionslide .centradoimg {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.sectionslide .centradoimg {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 /* SectionSlide */
 .sectionslide {
   position: relative;
   margin-top: 10rem;
+}
+
+.imgsize {
+  width: 500px;
+  height: 500px;
+}
+
+.marginimg {
+  margin-left: 25vw;
+}
+
+.overflowh {
+  overflow: hidden;
+}
+
+.bgc {
+  background-color: #044468;
 }
 
 /* Section Nos */
@@ -382,13 +375,17 @@ body header nav ul li {
   background-color: #e1e1ff;
   font-size: 20px;
   padding: 10px 10px;
-  -webkit-padding-end: 2rem;
-          padding-inline-end: 2rem;
+  -webkit-padding-end: 5rem;
+          padding-inline-end: 5rem;
   height: 7rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 4rem;
+}
+
+.sinsub {
+  text-decoration: none;
 }
 
 /* MEDIA QUERIES */
