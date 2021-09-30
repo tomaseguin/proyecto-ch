@@ -1,7 +1,8 @@
 /* Pestaña CONTACTO */
 
 .contacto {
-  background-color: rgb(120, 120, 206);
+  background-color: #0772b0;
+  background-image: linear-gradient(to left, #0772b0, #0993e3);
   font-family: sans-serif;
   font-size: 3.5rem;
   color: black;
@@ -9,6 +10,7 @@
   display: flex;
   border: solid 3px black;
   margin-top: 3rem;
+  margin-bottom: 3rem;
   position: relative;
   width: 25rem;
   overflow: hidden;
@@ -24,17 +26,19 @@
   background-image: linear-gradient(to bottom, #cccce8, #7979d1);
 }
 
-.dif {
-  width: 50%;
+.formu {
+  border: 1px black solid;
+  max-width: 1000px;
+  padding: 3rem;
 }
 
 .bodycontact {
   background-color: rgb(225, 225, 255);
-  background-image: linear-gradient(to bottom, #cccce8, #7979d1);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-height: 100%;
 }
 
 .btn-lgg {
@@ -43,6 +47,6 @@
   border-radius: 0.3rem;
 }
 
-.form-control-dif {
-  width: 50%;
+.form-control--dif {
+  font-size: 1.5rem;
 }

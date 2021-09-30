@@ -60,7 +60,7 @@ body header nav ul li {
 /* SectionSlide */
 .sectionslide {
   position: relative;
-  margin-top: 10rem;
+  margin-top: 3rem;
 }
 
 .imgsize {
@@ -85,7 +85,7 @@ body header nav ul li {
   color: #044468;
   text-decoration: underline;
   text-align: center;
-  padding: 5rem;
+  padding: 3rem;
 }
 
 .sectionNos__nos {
@@ -165,7 +165,9 @@ body header nav ul li {
 
 /* Pestaña CONTACTO */
 .contacto {
-  background-color: #7878ce;
+  background-color: #0772b0;
+  background-image: -webkit-gradient(linear, right top, left top, from(#0772b0), to(#0993e3));
+  background-image: linear-gradient(to left, #0772b0, #0993e3);
   font-family: sans-serif;
   font-size: 3.5rem;
   color: black;
@@ -175,6 +177,7 @@ body header nav ul li {
   display: flex;
   border: solid 3px black;
   margin-top: 3rem;
+  margin-bottom: 3rem;
   position: relative;
   width: 25rem;
   overflow: hidden;
@@ -193,14 +196,14 @@ body header nav ul li {
   background-image: linear-gradient(to bottom, #cccce8, #7979d1);
 }
 
-.dif {
-  width: 50%;
+.formu {
+  border: 1px black solid;
+  max-width: 1000px;
+  padding: 3rem;
 }
 
 .bodycontact {
   background-color: #e1e1ff;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#cccce8), to(#7979d1));
-  background-image: linear-gradient(to bottom, #cccce8, #7979d1);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -214,6 +217,7 @@ body header nav ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-height: 100%;
 }
 
 .btn-lgg {
@@ -222,8 +226,8 @@ body header nav ul li {
   border-radius: 0.3rem;
 }
 
-.form-control-dif {
-  width: 50%;
+.form-control--dif {
+  font-size: 1.5rem;
 }
 
 /* Pestaña Ninos */
@@ -360,8 +364,6 @@ body header nav ul li {
   height: 8rem;
   text-decoration: none;
   overflow: hidden;
-  -webkit-transition: 1s linear;
-  transition: 1s linear;
 }
 
 .header__tituloprincipal:hover {
@@ -502,6 +504,9 @@ body header nav ul li {
             flex-direction: column;
     font-size: 17px;
   }
+  .listanav {
+    overflow: hidden;
+  }
   body header nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -555,6 +560,9 @@ body header nav ul li {
     height: 100%;
     padding: 0;
     margin-top: 9rem;
+  }
+  .sectionslide {
+    margin-top: 8rem;
   }
   .sectionVendidos__titulo {
     font-size: 2rem;
@@ -610,7 +618,6 @@ body header nav ul li {
   }
   .contacto {
     text-align: center;
-    margin-left: 4rem;
     font-size: 3rem;
   }
   /* Pestañas */

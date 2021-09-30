@@ -1,4 +1,5 @@
 /* MEDIA QUERIES */
+
 /* TABLET */
 
 @media (min-width: 768px) and (max-width: 1230px) {
@@ -86,6 +87,10 @@
     font-size: 17px;
   }
 
+  .listanav {
+    overflow: hidden;
+  }
+
   body header nav ul {
     display: flex;
     justify-content: center;
@@ -127,6 +132,10 @@
     height: 100%;
     padding: 0;
     margin-top: 9rem;
+  }
+
+  .sectionslide {
+    margin-top: 8rem;
   }
 
   .sectionVendidos__titulo {
@@ -178,7 +187,6 @@
 
   .contacto {
     text-align: center;
-    margin-left: 4rem;
     font-size: 3rem;
   }
 
