@@ -279,7 +279,7 @@ body header nav ul li {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 2rem;
+  gap: 8rem 2rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -288,6 +288,15 @@ body header nav ul li {
 .fotosninos--pics {
   height: 250px;
   width: auto;
+}
+
+.descmid {
+  text-align: center;
+}
+
+.sub {
+  background-color: #b4b0b0;
+  font-size: 2rem;
 }
 
 /* Footer */
@@ -619,6 +628,13 @@ body header nav ul li {
   .contacto {
     text-align: center;
     font-size: 3rem;
+  }
+  .fotosninos--pics {
+    height: auto;
+    width: 100vw;
+  }
+  .fotosninos {
+    gap: 2rem;
   }
   /* Pestañas */
 }
